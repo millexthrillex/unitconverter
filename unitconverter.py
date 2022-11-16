@@ -25,11 +25,11 @@ class Unit:
     self.conversionfactor = conversionfactor
 
 def convert(s):
-  [from_, to_] = s.casefold().split(' to ')
+   [from_, to_] = s.casefold().split(' to ')
 
-  for i in [Unit('kg', ['lbs', 'g', 'mg', 'oz'], [2.205, 1000, 1000000, 35.7274]),
-            Unit('lbs', ['oz', 'kg', 'g', 'mg'], [16, 1 / 2.205, 452.592, 453592]),
-            Unit('g', ['kg', 'mg', 'lbs', 'oz'], [0.001, 1000, 0.002, 0.035])]:
+   for i in [Unit('kg', ['lbs', 'g', 'mg', 'oz'], [2.2046244202, 1000, 1000000, 35.273990723]),
+            Unit('lbs', ['oz', 'kg', 'g', 'mg'], [16, 0.453592, 452.592, 453592]),
+            Unit('g', ['kg', 'mg', 'lbs', 'oz'], [0.001, 1000, 0.0022046244, 0.0352739907])]:
       if from_.endswith(i.unitname):
           val = float(from_.removesuffix(i.unitname))
           ind = i.convertsto.index(to_)
