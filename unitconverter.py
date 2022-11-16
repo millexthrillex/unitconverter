@@ -1,6 +1,17 @@
-#This is the beginning of the file that Elliot went through in class
+# This is the beginning of the file that Elliot went through in class
 #
+# Project Requirements:
+#	Able to convert between common metric and Imperial cooking units of measure including mass, volume (liquid and bulk),
+#	and temperature.
+#	Eggs to cups
+#	Kg to lbs
+#	Tsp to cups
 #
+#	Tsp, Tbsp, Cups, Pints, Quarts, Fl. Oz., Lbs, Gal, Oz, Kg, G, L, mL, Farenheit, Celsius, Kelvin
+#
+#	Command-Line Interface
+#		"Convert 6 tbsp to cups"
+#		"7.2 Kg to lbs"
 #
 #
 #
