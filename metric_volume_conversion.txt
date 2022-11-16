@@ -1,0 +1,136 @@
+Metric Volume conversion
+
+Liter		Milliliter (1000) 
+            US Gallon (.2642) 
+            US Quart (1.0567) 
+            US Pint (2.1134)
+            US Cup (4.2267) 
+            US Fluid Ounce (33.8140) 
+            US Tablespoon (67.6280) 
+            US Teaspoon (202.8842) 
+            Imperial Gallon (.2199) 
+            Imperial Quart (0.8799) 
+            Imperial Pint (1.7598)
+            Imperial Fluid Ounce (35.1951) 
+            Imperial Tablespoon (56.3121) 
+            Imperial Teaspoon (168.9364) 
+
+Milliliter  Liter (.001) 
+            US Gallon (.00026) 
+            US Quart (.0011) 
+            US Pint (.0021)
+            US Cup (.0042) 
+            US Fluid Oz (.0338) 
+            US Tablespoon (.0676) 
+            US Teaspoon (.2029) 
+            Imperial Gallon (.0002) 
+            Imperial Quart (.0008)
+            Imperial Pint (.0018) 
+            Imperial Fl Oz (.0352) 
+            Imperial Tbsp (.0563) 
+            Imperial Tsp (.1689)
+
+US Gallon   Liter (3.7854) 
+            Ml (3785.41) 
+            US Quart (4) 
+            US pint (8) 
+            US cup (16) 
+            US fl oz (128) 
+            US Tbsp (256) 
+            US Tsp (768) 
+            Imperial Gallon (.8327)
+            Imperial Quart (3.3301) 
+            Imperial Pint (6.6614) 
+            Imperial Fl Oz (133.2278)
+            Imperial Tbsp (213.1645) 
+            Imperial Tsp (639.4935) 
+
+US Quart    Liter (.9464) 
+            Ml (946.3525) 
+            US Gallon (.25) 
+            US Pint (2) 
+            US Cup (4)
+            US Fl oz (32) 
+            US Tbsp (64) 
+            US Tsp (192) 
+            Imperial Gallon (.2082)
+            Imperial Quart (.8327) 
+            Imperial Pint (1.6653) 
+            Imperial Fl oz (33.3069)
+            Imperial Tbsp (53.2911) 
+            Imperial Tsp (159.8734)
+
+US Pint     Liter=.4732
+            Ml=473.1763
+            US Gallon=.125
+            US Quart=.5
+            US Cup=2
+            US fl oz=16
+            US tbsp=32
+            US tsp=96
+            imperial gallon=.1
+            imperial quart=.4163
+            imperial pint=.8327
+            imperial fl oz=16.6534
+            imperial tbsp=26.6456
+            imperial tsp=79.9367
+            
+US Cup      Liter=.2366
+            Ml=236.5881
+            US gallon=.0625
+            US quart=.25
+            US pint=.5
+            US fl oz=8
+            US tbsp=16
+            US tsp=48
+            imperial gallon=.05204
+            imperial quart=.2082
+            imperial pint=.4164
+            imperial fl oz= 8.3267
+            imperial tbsp= 13.3228
+            imperial tsp=39.9683
+            
+US Fluid Ounce  Liter =.02957
+                Ml=29.5735
+                us gallon=.0078
+                us quart=.0313
+                us pint=.0625
+                us cup=.125
+                us tbsp=2
+                us tsp=6
+                imperial gallon=.0065
+                imperial quart=.0260
+                imperial pint=.0520
+                imperial fl oz=1.0408
+                imperial tbsp=1.6653
+                imperial tsp=4.9960
+
+US Table Spoon  Liter=.0148
+                Ml=14.7868
+                us gallon=.0039
+                us quart=.0156
+                us pint=.0312
+                us cup=.0625
+                us fl oz=.5
+                us tsp=3
+                imperial gallon=.0033
+                imperial quart=.01310
+                imperial pint=.0260
+                imperial fl oz=.5204
+                imperial tbsp=.8327
+                imperial tsp=2.4980
+
+US Tea Spoon    Liter=.0049
+                ml=4.9289
+                us gallon=.0013
+                us quart=.0052
+                us pint=.0104
+                us cup=.0208
+                us fl oz=.1667
+                us tbsp=.3333
+                imperial gallon=.0012
+                imperial quart=.0043
+                imperial pint=.0043
+                imperial fl oz=.1735
+                imperial tbsp=.2776
+                imperial tsp=.8327

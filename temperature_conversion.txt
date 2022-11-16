@@ -1,0 +1,12 @@
+Temperature Conversions
+
+Celsius		Kelvin (274.15)		
+            Fahrenheit (33.8)
+
+
+Kelvin		Celsius (-272.15)	
+            Fahrenheit (-457.87)
+
+Fahrenheit	Celsius (-17.2)		
+            Kevin (255.93)
+
