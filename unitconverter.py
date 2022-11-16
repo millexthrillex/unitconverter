@@ -15,6 +15,8 @@
 #
 #
 #
+import sys
+s = input("What are we converting? ")
 
 class Unit:
   def __init__(self, unitname, convertsto, conversionfactor):
@@ -23,15 +25,14 @@ class Unit:
     self.conversionfactor = conversionfactor
 
 def convert(s):
-  [from_, to_] = s.split(' to ')
+  [from_, to_] = s.casefold().split(' to ')
 
-  for i in [Unit('kg', ['lbs', 'g'], [2.205, 1000]),
-            Unit('lbs', ['oz', 'kg'], [16, 1 / 2.205])]:
+  for i in [Unit('kg', ['lbs', 'g', 'mg', 'oz'], [2.205, 1000, 1000000, 35.7274]),
+            Unit('lbs', ['oz', 'kg', 'g', 'mg'], [16, 1 / 2.205, 452.592, 453592]),
+            Unit('g', ['kg', 'mg', 'lbs', 'oz'], [0.001, 1000, 0.002, 0.035])]:
       if from_.endswith(i.unitname):
           val = float(from_.removesuffix(i.unitname))
           ind = i.convertsto.index(to_)
           print(val * i.conversionfactor[ind])
 
-convert("7.2kg to lbs")
-convert("3lbs to oz")
-convert("7.2kg to g")
+convert(s)
