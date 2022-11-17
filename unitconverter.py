@@ -58,7 +58,7 @@ def convert(s):
           fresult = f'{result:.3f}'
           print(fresult + " " +to_)
 while True:
-  s = input("Convertion format ie. '1kg to gm' \n")
+  s = input("Please enter what you would like to convert. \n(Conversion format ie. '1kg to gm') \n")
   convert(s)
   x = input("continue? (y/n): ")
   if x == "n":
