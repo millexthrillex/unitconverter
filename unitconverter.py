@@ -44,7 +44,17 @@ def convert(s):
             Unit('imp p', ['ml', 'US gal', 'q', 'p', 'c', 'fl oz', 'tbsp', 'tsp', 'imp gal','imp q', 'lt', 'imp fl oz','imp tbsp', 'imp tsp'], [568.2613, 0.1501, 0.6005, 1.20095, 2.4019, 19.2152, 38.4304, 115.29125, 0.125 , 0.5, 0.5683, 20, 32, 96]),
             Unit('imp tbsp', ['ml', 'US gal', 'q', 'p', 'c', 'fl oz', 'tbsp', 'tsp', 'imp gal','imp q', 'imp p', 'lt','imp tsp', 'imp fl oz'], [17.7582, 0.00469, 0.01876, 0.03753, 0.07506, 0.60048, 1.20095, 3.6029, 0.0039, 0.0156, 0.03125, 0.01776, 3, 0.625]),
             Unit('imp tsp', ['ml', 'US gal', 'q', 'p', 'c', 'fl oz', 'tbsp', 'tsp', 'imp gal','imp q', 'imp p', 'imp fl oz','imp tbsp', 'lt'], [5.9194, 0.00156, 0.006255, 0.01251, 0.02502, 0.20016, 0.40032, 1.20095, 0.0013, 0.00521, 0.01042, 0.20833, 0.33333, 0.00592]),
-            Unit('imp fl oz1', ['ml', 'US gal', 'q', 'p', 'c', 'fl oz', 'tbsp', 'tsp', 'imp gal','imp q', 'imp p', 'imp tbsp','lt', 'imp tsp'], [28.41306, 0.00751, 0.03002, 0.06005, 0.1201, 0.96076, 1.92152, 5.76456, 0.00625, 0.025, 0.05, 1.6, 0.02841, 4.8])]:
+            Unit('imp fl oz1', ['ml', 'US gal', 'q', 'p', 'c', 'fl oz', 'tbsp', 'tsp', 'imp gal','imp q', 'imp p', 'imp tbsp','lt', 'imp tsp'], [28.41306, 0.00751, 0.03002, 0.06005, 0.1201, 0.96076, 1.92152, 5.76456, 0.00625, 0.025, 0.05, 1.6, 0.02841, 4.8]),
+
+            Unit('lt', ['ml', 'us gal', 'us q', 'us p', 'c', 'us fl oz', 'us tbsp', 'us tsp', 'imp gal','imp q', 'imp p', 'imp fl oz','imp tbsp', 'imp tsp'], [1000, .2642, 1.0567, 2.1134, 4.2267, 33.8140, 67.6280, 202.8842, .2199, .8799, 1.7598, 35.1951, 56.3121, 168.9364]),
+            Unit('ml', ['lt', 'us gal', 'us q', 'us p', 'c', 'us fl oz', 'us tbsp', 'us tsp', 'imp gal','imp q', 'imp p', 'imp fl oz','imp tbsp', 'imp tsp'], [.001, .00026, .0011, .0021, .0042, .0338, .0676, .2029, .0002, .0008, .0018, .0352, .0563, .1689]),
+            Unit('us gal', ['lt', 'ml', 'us q', 'us p', 'c', 'us fl oz', 'us tbsp', 'us tsp', 'imp gal','imp q', 'imp p', 'imp fl oz','imp tbsp', 'imp tsp'], [3.78754, 3785.41, 4, 8, 16, 128, 256, 768, .8327, 3.3301, 6.6614, 133.2278, 639.4935]),
+            Unit('us q', ['lt', 'ml', 'us gal', 'us p', 'c', 'us fl oz', 'us tbsp', 'us tsp', 'imp gal','imp q', 'imp p', 'imp fl oz','imp tbsp', 'imp tsp'], [.9464, 946.3525, .25, 2, 4, 32, 64, 192, .2082, .8327, 1.6653, 33.3069, 53.8734, 159.8734]),
+			Unit('us p', ['lt', 'ml', 'us gal', 'c', 'us fl oz', 'us tbsp', 'us tsp', 'imp gal','imp q', 'imp p', 'imp fl oz','imp tbsp', 'imp tsp'], [.4732, 473.1763, .125, .5, 2, 16, 32, 96, .1, .4163, .8327, 16.6534, 26.6456, 79.9367]),
+			Unit('c', ['lt', 'ml', 'us gal', 'us q', 'us p', 'us fl oz', 'us tbsp', 'us tsp', 'imp gal','imp q', 'imp p', 'imp fl oz','imp tbsp', 'imp tsp'], [.2366, 236.5881, .0625, .25, .5, 8, 16, 48, .05204, .2082, .4164, 8.3267, 13.3228, 39.9683]),
+			Unit('us fl oz', ['lt', 'ml', 'us gal', 'us q', 'us p', 'c', 'us tbsp', 'us tsp', 'imp gal','imp q', 'imp p', 'imp fl oz','imp tbsp', 'imp tsp'], [.02957, 29.5735, .0078, .0313, .0625, .125, 2, 6, .0065, .0260, .0520, 1.0408, 1.6653, 4.9960]),
+			Unit('us tbsp', ['lt', 'ml', 'us gal', 'us q', 'us p', 'c', 'us fl oz', 'us tsp', 'imp gal','imp q', 'imp p', 'imp fl oz','imp tbsp', 'imp tsp'], [.0148, 14.7868, .0039, .0156, .0312, .0625, .5, 3, .0033, .01310, .0260, .5204, .83287, 2.498]),
+			Unit('us tsp', ['lt', 'ml', 'us gal', 'us q', 'us p', 'c', 'us fl oz', 'us tbsp', 'imp gal','imp q', 'imp p', 'imp fl oz','imp tbsp', 'imp tsp'], [.0049, 4.9289, .0013, .0052, .0104, .0208, .1667, .3333, .0012, .0043, .0086, .1735, .2776, .8327])]:
       
     if from_.endswith(i.unitname):
           val = float(from_.removesuffix(i.unitname))
